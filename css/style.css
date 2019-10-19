@@ -38,16 +38,21 @@
 .menu_item {
     color: gray;
     display: inline-block;
-    border-left: 1px solid gray;
+    margin-top: -50px;
     padding-left: 35px;
     padding-right: 35px;
-}
-
-.menu_item_home {
-    border-left: none;
+    padding-top: 50px;
 }
 
 .menu_item:hover{
     color: white;
     border-top: 5px solid #b86365;
+}
+
+.menu_line {
+    height: 1px;
+    width: 785px;
+    background-color: gray;
+    margin-left: 530px;
+    margin-top: -70px;
 }
